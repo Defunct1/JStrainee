@@ -24,14 +24,22 @@
 // console.log(isAdult)
 
 // Завдання 6 
-let firstName, lastName, working_group, birthday;
-firstName = "John"; //string
-lastName = "Doe"; //string
-working_group = "Engineering"; //string
-birthday = "1990-05-15"; //string
-let isMarried = true //boolean
-console.log(isMarried, firstName, lastName, working_group, birthday)
-let emptyness, unknown;
-emptyness = null;
-unknown = undefined;
-console.log(emptyness,unknown)
+
+// let firstName, lastName, working_group;
+// firstName = "John"; //string
+// lastName = "Doe"; //string
+// workingGroup = "Engineering"; //string
+// const birthday = "1990-05-15"; //string
+// let isMarried = true //boolean
+// console.log(isMarried, firstName, lastName, working_group, birthday)
+// let emptyness, unknown;
+// emptyness = null;
+// unknown = undefined;
+// console.log(emptyness,unknown)
+
+// Завдання 7
+
+// let inputLogin = prompt('Input your login');
+// let inputEmail = prompt('Input your email');
+// let inputPassword = prompt('Input your password');
+// alert(`“Dear ${inputLogin}, your email is ${inputEmail}, your password is ${inputPassword}”.`)
