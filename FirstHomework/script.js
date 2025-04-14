@@ -43,3 +43,10 @@
 // let inputEmail = prompt('Input your email');
 // let inputPassword = prompt('Input your password');
 // alert(`“Dear ${inputLogin}, your email is ${inputEmail}, your password is ${inputPassword}”.`)
+
+// Завдання 8
+let s_in_hour, s_in_day, s_in_mon;
+s_in_hour = 60 * 60; //computing the quantity of seconds in hour
+s_in_day = s_in_hour * 24; //computing the quantity of seconds in day
+s_in_mon = s_in_day * 30; //computing the quantity of seconds in month
+alert(`В годині ${s_in_hour} секунд, в дні ${s_in_day} секунд, в місяці ${s_in_mon} секунд`)
