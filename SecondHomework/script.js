@@ -61,8 +61,8 @@
 //     true,
 //     null
 // ]
-// console.log(checkingTypes); ..виводимо масив в консоль
-// checkingTypes.push(prompt('Please, text anything in here: ', '')); виводимо в консоль масив з новим елементом, який вводить користувач через діалогове prompt
+// console.log(checkingTypes); //виводимо масив в консоль
+// checkingTypes.push(prompt('Please, text anything in here: ', '')); //виводимо в консоль масив з новим елементом, який вводить користувач через діалогове prompt
 // console.log(checkingTypes[4]);
 // checkingTypes.shift(); //видаляємо перший елемент масиву
 // console.log(checkingTypes)
