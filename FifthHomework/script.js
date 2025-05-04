@@ -134,63 +134,63 @@
 
 
 // Вправа 5 
-class GeometricFigure { // Батьківський клас для геометричних фігур
-    getArea(){ // Порожній метод для площі
-        return 0;
-    }
-    toString(){ // Повертає назву класу
-        return Object.getPrototypeOf(this).constructor.name;
-    }
-}
-class Triangle extends GeometricFigure { // Клас для трикутника, наслідується від GeometricFigure
-    constructor (base, height) {
-    super();
-    this.base = base;
-    this.height = height;
-    }
-    getArea() {
+// class GeometricFigure { // Батьківський клас для геометричних фігур
+//     getArea(){ // Порожній метод для площі
+//         return 0;
+//     }
+//     toString(){ // Повертає назву класу
+//         return Object.getPrototypeOf(this).constructor.name;
+//     }
+// }
+// class Triangle extends GeometricFigure { // Клас для трикутника, наслідується від GeometricFigure
+//     constructor (base, height) {
+//     super();
+//     this.base = base;
+//     this.height = height;
+//     }
+//     getArea() {
 
-        return this.base * this.height / 2; // Площа трикутника: (основа * висота) / 2
-    }
-}
-class Square extends GeometricFigure { // Клас для квадрата, наслідується від GeometricFigure
-    constructor (side) {
-        super();
-        this.side = side;
-    }
+//         return this.base * this.height / 2; // Площа трикутника: (основа * висота) / 2
+//     }
+// }
+// class Square extends GeometricFigure { // Клас для квадрата, наслідується від GeometricFigure
+//     constructor (side) {
+//         super();
+//         this.side = side;
+//     }
     
-    getArea() {
-        return this.side * this.side; //Площа квадрата: сторона * сторона
-    }
-}
-class Circle extends GeometricFigure { // Клас для кола, наслідується від GeometricFigure
-    constructor (radius) {
-        super();
-        this.radius = radius;
-    }
-    getArea() {
-        return Math.PI * this.radius ** 2; // Площа кола: π * радіус^2
-    }
-}
+//     getArea() {
+//         return this.side * this.side; //Площа квадрата: сторона * сторона
+//     }
+// }
+// class Circle extends GeometricFigure { // Клас для кола, наслідується від GeometricFigure
+//     constructor (radius) {
+//         super();
+//         this.radius = radius;
+//     }
+//     getArea() {
+//         return Math.PI * this.radius ** 2; // Площа кола: π * радіус^2
+//     }
+// }
 
 
-// Функція для обробки масиву фігур
+// // Функція для обробки масиву фігур
 
-function handleFigures(figures) { // Обчислюємо сумарну площу і виводимо дані для кожної фігури
-    return figures.reduce((total, figure) => {
-        if (figure instanceof GeometricFigure) {
-            const area = figure.getArea();
-            console.log(`Geometric figure: ${figure.toString()} - area: ${figure.getArea()}`);
-            return total + area
-        } 
-        return total; //Пропускаємо об’єкти, які не є GeometricFigure
-    }, 0);
-}
+// function handleFigures(figures) { // Обчислюємо сумарну площу і виводимо дані для кожної фігури
+//     return figures.reduce((total, figure) => {
+//         if (figure instanceof GeometricFigure) {
+//             const area = figure.getArea();
+//             console.log(`Geometric figure: ${figure.toString()} - area: ${figure.getArea()}`);
+//             return total + area
+//         } 
+//         return total; //Пропускаємо об’єкти, які не є GeometricFigure
+//     }, 0);
+// }
 
-// Тестування
-let figures = [
-    new Triangle(4, 5), 
-    new Square(7), 
-    new Circle(5)
-]; 
-console.log(handleFigures(figures));
+// // Тестування
+// let figures = [
+//     new Triangle(4, 5), 
+//     new Square(7), 
+//     new Circle(5)
+// ]; 
+// console.log(handleFigures(figures));
