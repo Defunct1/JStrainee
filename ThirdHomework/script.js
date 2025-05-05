@@ -12,10 +12,10 @@
 
 // while (i < numbers.length) { //проходить (ітерує) цикл по індексам та перемножає елементи і зберігає в результат 2
 //     result2 *= numbers[i];
-//     i++
+//     i++;
 // }
-// console.log(result)
-// console.log(result2)
+// console.log(result);
+// console.log(result2);
 
 //Вправа 2
 
@@ -24,9 +24,9 @@
 
 // for (num in numbers) { //для кожного елементу масиву виконується перевірка
 //     if (num % 2 !== 0) { //якщо остача не дорівнює 0 - число непарне
-//         console.log(num + '- непарне число')
+//         console.log(num + '- непарне число');
 //     } else { //інакше - парне
-//         console.log(num + '- парне число')
+//         console.log(num + '- парне число');
 //     }
 // }
 
@@ -40,7 +40,7 @@
 //     }
 //     return someArray;
 //     }
-// console.log(randArray(15))
+// console.log(randArray(15));
 
 // Вправа 4
 
@@ -79,10 +79,10 @@
 //             min = arguments[i]; //записуємо нове значення
 //         }
 //     }
-//     return min
+//     return min;
 // }
 
-// console.log(findMin(15, 1414, -54. -5214, 7817823))
+// console.log(findMin(15, 1414, -54. -5214, 7817823));
 
 // Вправа 6
 
@@ -105,20 +105,20 @@
 //     if (quantity <= 0 || quantity > arr.length) {
 //         return arr.slice(-quantity); //якщо quantity = 1 то повертаємо останній елемент
 //     }
-//     return quantity === 1 ? arr[arr.length - 1] : arr.slice(-quantity) //якщо quantity > 1, то повертаємо підмасив
+//     return quantity === 1 ? arr[arr.length - 1] : arr.slice(-quantity); //якщо quantity > 1, то повертаємо підмасив
   
 // }
 
-// console.log(lastElem([5461456,1454,56,,1,5641,4,145], 5))
+// console.log(lastElem([5461456,1454,56,,1,5641,4,145], 5));
 
 // Вправа 8
 
 // function firstUpper(str) {
 //     if (!str || typeof str != 'string')
 //         return str;
-//     return str
-//     .split(' ')
-//     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+//     return str;
+//     .split(' ');
+//     .map(word => word.charAt(0).toUpperCase() + word.slice(1));
 //     .join(' ');
 // }
-// console.log(firstUpper('this is my firstlastCkjnajksSADADAD'))
+// console.log(firstUpper('this is my firstlastCkjnajksSADADAD'));
